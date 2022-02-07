@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="">
+        <table> 
+            <tr>
+                <td class="chandu" >
+                    <h1 >
+                        TIP CALCULATOR
+                    </h1>
+                </td>
+            </tr>
+            <tr >
+                <td class="chandu"  >
+                    Enter your bill amount
+                </td>
+            </tr>
+            <tr>
+                <td  class="chandu"  >
+                   Rs. <input type="number" id="first" style="padding: 10px;" >
+                </td>
+            </tr>
+            <tr>
+                <td class="chandu"  >
+                    How was the service ?
+                </td>
+            </tr>
+            <tr >
+                <td class="chandu"  >
+                    <select name="" id="sevice" style="padding: 10px;" >
+                        <option value="20">EXCELLENT</option>
+                        <option value="10">MEDIUM</option>
+                        <option value="5">GOOD</option>
+                    </select>
+                </td>
+            </tr>
+            <tr  >
+                <td class="chandu" >
+                    How many people are sharing the bill ?
+                </td>
+            </tr>
+            <tr >
+                <td class="chandu"  >
+                    <input style="padding: 10px;"   type="number"  id="thir">
+                </td>
+            </tr>
+            <tr>
+                <td class="chandu"  >
+                    <input  style="padding: 10px;background-color:yellow;border-radius: 1px;"  type="button" value="calculate" onclick="calculate()" >
+                </td>
+            </tr>
+            <tr >
+                <td class="chandu"   >
+                   TIP PER HEAD <input style="padding: 10px;"  type="number" id="simple" disabled > 
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+<script src="index.js"></script>
+</html>

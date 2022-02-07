@@ -1,0 +1,15 @@
+table{
+    background-image: url(https://i.pinimg.com/originals/44/ea/40/44ea400365dac63a8df7f04c739fec7d.jpg);background-repeat: no-repeat;background-size: cover;
+    border: solid black;
+    margin-left: 500px;
+    padding: 70px;
+}
+
+.chandu {
+    padding: 11px;
+    font-size: 20px;
+    font-family: copperplate ,papyrus ,  fantasy ;
+    font-weight: bold;
+    background-color: darkgrey;
+    
+}
